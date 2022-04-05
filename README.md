@@ -70,11 +70,23 @@ Categories
  [Official site](https://icecoder.net/)
  * **Jupyter**\
  JupyterLab is the latest web-based interactive development environment for notebooks, code, and data. Its flexible interface allows users to configure and arrange workflows in data science, scientific computing, computational journalism, and machine learning.\
- Depending on your needs, you can find a lot of different containers already implementing useful python packages such as scipy.
+ Depending on your needs, you can find a lot of different containers already implementing useful python packages such as scipy.\
  [Official site](https://jupyter.org/) - [Docker Hub link](https://hub.docker.com/r/johntrimble/jupyter-multiarch)
  * **VScode**\
  Run VS Code on any machine anywhere and access it through the browser.\
- [On GitHub](https://github.com/coder/code-server) [Docker Hub link](https://hub.docker.com/r/codercom/code-server)
+ [On GitHub](https://github.com/coder/code-server) - [Docker Hub link](https://hub.docker.com/r/codercom/code-server)
+ * **Haste**\
+ Haste is an open-source pastebin software written in node.js, which is easily installable in any network. It can be backed by either redis or filesystem, and has a very easy adapter interface for other stores.\
+ [On GitHub](https://github.com/toptal/haste-server) - [Docker Hub link](https://hub.docker.com/r/jonasled/haste-server)
+ * **Privatebin**\
+ PrivateBin is a minimalist, open source online pastebin where the server has zero knowledge of pasted data.\
+ [Official site](https://privatebin.info/) - [Docker Hub link](https://hub.docker.com/r/privatebin/nginx-fpm-alpine)
+ * **Matomo**\
+ Google Analytics alternative that protects your data and your customers' privacy.\
+ [Official site](https://matomo.org/) - [Docker Hub link](https://hub.docker.com/_/matomo)
+ * **Thingsboard**\
+ Open-source IoT Platform - Device management, data collection, processing and visualization.\
+ [Official site](https://thingsboard.io/)
 ### Networking
  * **Wireguard**\
  WireGuard is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec, while avoiding the massive headache.\
@@ -84,7 +96,16 @@ Categories
  [Pi-hole official site](https://pi-hole.net/) - [On GitHub](https://github.com/chriscrowe/docker-pihole-unbound) - [Docker Hub link]()
  * **Traefik**\
  Traefik is an open-source Edge Router that makes publishing your services a fun and easy experience. It receives requests on behalf of your system and finds out which components are responsible for handling them.\
- [Official site](https://traefik.io/) [Docker Hub link](https://hub.docker.com/_/traefik)
+ [Official site](https://traefik.io/) - [Docker Hub link](https://hub.docker.com/_/traefik)* **Traefik**\
+ * **OpenVPN**
+ DockOvpn is an out of the box dockerized OpenVPN server, which starts in just a few seconds and runs forever.\
+ [On GitHub](https://github.com/dockovpn/docker-openvpn) - [Official site](https://dockovpn.io/) - [Docker Hub link](https://hub.docker.com/r/kylemanna/openvpn)
+* **OpenVPN monitor**
+ OpenVPN Monitor is a web-based utility that displays the status of OpenVPN servers. It includes information such as the usernames/hostnames connected, remote and VPN IP addresses, approximate locations (using GeoIP), traffic consumption and more.\
+ [On GitHub](https://github.com/ruimarinho/docker-openvpn-monitor) - [Docker Hub link](https://hub.docker.com/r/ruimarinho/openvpn-monitor)
+ * **Wireguard**\
+ WireGuard is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec, while avoiding the massive headache.\
+ [On GitHub](https://github.com/linuxserver/docker-wireguard) - [Docker Hub link](https://hub.docker.com/r/linuxserver/wireguard)
  * ****\
  \
  [On GitHub]() - [Official site]() [Docker Hub link]()
@@ -115,6 +136,15 @@ Categories
  * **Statping**\
  Statping - Web and App Status Monitoring for Any Type of Project.\
  [On GitHub](https://github.com/statping/statping) - [Docker Hub link](https://hub.docker.com/r/statping/statping)
+ * **Open Speed Test**
+ Openspeedtest - 
+ [On GitHub](https://github.com/) - [Docker Hub link](https://hub.docker.com/r/openspeedtest)
+ * **Glances**\
+ Glances is a cross-platform monitoring tool which aims to present a large amount of monitoring information through a curses or Web based interface. The information dynamically adapts depending on the size of the user interface.\
+ [On GitHub](https://github.com/nicolargo/glances) - [Docker Hub link](https://hub.docker.com/r/nicolargo/glances)
+ * **Baseimage-gui**\
+ This is a docker baseimage that can be used to create containers able to run any X application on a headless server very easily. The application's GUI is accessed through a modern web browser or via any VNC client.\
+ [On GitHub](https://github.com/jlesage/docker-baseimage-gui) - [Docker Hub link](https://hub.docker.com/r/jlesage/baseimage-gui)
  * ****\
  \
  [On GitHub]() - [Official site]() [Docker Hub link]()
@@ -129,23 +159,34 @@ Categories
  * **Sonarr**\
  Sonarr is a PVR for Usenet and BitTorrent users.\
  [Official site](https://sonarr.tv/) - [Docker Hub link](https://hub.docker.com/r/linuxserver/sonarr)
- * ****\
-
- [Official site]() - [Docker Hub link]()
+ * **MakeMKV**\
+ MakeMKV is a format converter, otherwise called "transcoder". It converts the video clips from proprietary (and usually encrypted) disc into a set of MKV files, preserving most information but not changing it in any way.\
+ [On GitHub](https://github.com/jlesage/docker-makemkv) - [Docker Hub link](https://hub.docker.com/r/jlesage/makemkv/)
  * **Photoshow**\
  Photoshow is gallery software at its easiest, it doesn't even require a database.\
  [On GitHub](https://github.com/linuxserver/docker-photoshow) - [Docker Hub link](https://hub.docker.com/r/linuxserver/photoshow)
 
 ### Productivity
  * **Joplin**\
- Joplin is an open source note-taking app. Can be accessed by many devices. Notes are written in markdown style. You can run yuor own server docker for free.
+ Joplin is an open source note-taking app. Can be accessed by many devices. Notes are written in markdown style. You can run your own server docker for free.
  [Official site](https://joplinapp.org/) - [Docker Hub link](https://hub.docker.com/r/joplin/server)
  * **DokuWiki**\
  Light wiki, useful for rapid notes with permission manager. Write in markdown and add also images stored inside the container itself.\
  [Official site](https://www.dokuwiki.org/) - [Docker Hub link](https://hub.docker.com/r/bitnami/dokuwiki)
+ * **Vaultwarden**\
+ Alternative implementation of the Bitwarden server API written in Rust and compatible with upstream Bitwarden clients, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal. A password manager solution with web, PC and phone support.\
+ [On GitHub](https://github.com/dani-garcia/vaultwarden) - [Docker Hub link](https://hub.docker.com/r/vaultwarden/server)
+ * **Overleaf**\
+ An open-source online real-time collaborative LaTeX editor.\
+ [On GitHub](https://github.com/overleaf/overleaf) - [Docker Hub link](https://hub.docker.com/r/sharelatex/sharelatex)
+ * **Paperless-ng**\
+ Paperless is an application that indexes your scanned documents and allows you to easily search for documents and store metadata alongside your documents. The Android app allows to connect to your server. \
+ [On GitHub](https://github.com/jonaswinkler/paperless-ng) - [Docker Hub link](https://hub.docker.com/r/jonaswinkler/paperless-ng)
+ * **Gotenberg**\
+ Gotenberg provides a developer-friendly API to interact with powerful tools like Chromium and LibreOffice for converting numerous document formats (HTML, Markdown, Word, Excel, etc.) into PDF files, and more! \
+ You should also install [this web client](https://github.com/gotenberg/gotenberg-php). \
+ [Official site](https://gotenberg.dev/) - [On GitHub](https://github.com/gotenberg/gotenberg) - [Docker Hub link](https://hub.docker.com/r/gotenberg/gotenberg)
 
-
- [Official site]() - [Docker Hub link]()
 ### Others
  * **ArchiveBox**\
  ArchiveBox is a powerful, self-hosted internet archiving solution to collect, save, and view sites you want to preserve offline.\
